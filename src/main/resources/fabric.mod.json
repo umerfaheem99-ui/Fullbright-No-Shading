@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "fullbright-no-shading",
+  "version": "${version}",
+  "name": "Fullbright No Shading",
+  "description": "A clean visual enhancement mod that combines powerful fullbright controls with smooth no-shading options for brighter, sharper, and more consistent Minecraft visuals.",
+  "authors": [
+    "R3MU"
+  ],
+  "contributors": [
+    "Spunkyinsaan",
+    "StartsMercury"
+  ],
+  "contact": {
+    "homepage": "https://premiumvault.vercel.app/"
+  },
+  "license": "MIT",
+  "icon": "assets/fullbright-no-shading/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.fullbrightnoshading.FullbrightNoShading"
+    ],
+    "modmenu": [
+      "net.fullbrightnoshading.modmenu.FullbrightNoShadingModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "fullbright-no-shading.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "fabric-key-binding-api-v1": "*",
+    "cloth-config": "*",
+    "minecraft": "${minecraft_dependency}"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "breaks": {
+    "simply-no-shading": "*"
+  }
+}

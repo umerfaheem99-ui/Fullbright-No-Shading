@@ -1,0 +1,6 @@
+Fullbright No Shading by R3MU.
+
+Credits: Spunkyinsaan and StartsMercury.
+
+No-shading rendering behavior is adapted from Simply No Shading by StartsMercury,
+licensed under the MIT License.

@@ -1,0 +1,20 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "net.fullbrightnoshading.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "FullbrightNoShadingLightmapAccessor",
+    "MixinBakedQuadNoShading",
+    "MixinClientWorldNoShading",
+    "MixinCloudRendererNoShading",
+    "MixinFluidRendererNoShading",
+    "MixinGlImportProcessorNoShading",
+    "MixinMinecraftClient",
+    "MixinLightmapTextureManager"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

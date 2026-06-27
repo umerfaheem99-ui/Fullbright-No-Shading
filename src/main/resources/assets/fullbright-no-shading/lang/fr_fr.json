@@ -1,0 +1,18 @@
+{
+  "key.fullbright-plus.toggle": "Toggle Fullbright",
+  "key.fullbright-plus.raise": "Increase Fullbright",
+  "key.fullbright-plus.lower": "Decrease Fullbright",
+  "key.fullbright-plus.open_gui": "Open Fullbright No Shading Config",
+  "category.FullbrightNoShading.main": "Fullbright No Shading",
+  "category.fullbright-plus.general": "General",
+  "screen.fullbright-plus.title": "Fullbright No Shading",
+  "screen.fullbright-plus.title_with_author": "Fullbright No Shading - Made By R3MU",
+  "screen.fullbright-plus.made_by": "Made By R3MU",
+  "option.fullbright-plus.enabled": "Enabled",
+  "option.fullbright-plus.enabled.tooltip": "Turns Fullbright No Shading on or off.",
+  "option.fullbright-plus.brightness": "Fullbright Strength",
+  "option.fullbright-plus.brightness.tooltip": "Higher values make dark areas brighter without writing invalid values into Minecraft's video settings.",
+  "option.fullbright-plus.percent_value": "%s%%",
+  "overlay.fullbright-plus.enabled": "Fullbright No Shading: %s%%",
+  "overlay.fullbright-plus.disabled": "Fullbright No Shading: Off"
+}
